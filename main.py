@@ -12,7 +12,7 @@ import jwt
 from flask import Flask, jsonify, request, abort
 
 
-JWT_SECRET = os.environ.get('JWT_SECRET', 'f7grksf7g7j')
+JWT_SECRET = os.environ.get('JWT_SECRET')
 LOG_LEVEL = os.environ.get('LOG_LEVEL', 'INFO')
 
 
